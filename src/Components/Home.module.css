@@ -1,0 +1,31 @@
+.stylebrand{
+    border:2px solid black;
+    display: flex;
+    align-items: center;
+    background-color: #91515A;
+    height:150px;
+}
+.logo{
+    position: relative;
+    height:147px;
+}
+.brandname{
+    position: absolute;
+    left: 30%;
+    color:bisque;
+    font-size: 80px;
+    font-family:'Times New Roman', Times, serif;
+    /* font-style: italic; */
+    text-shadow: 10px 10px 10px rgb(110, 150, 37);
+}
+
+.corousalImg1,
+.corousalImg2,
+.corousalImg3 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.flex{
+    display: flex;
+}
